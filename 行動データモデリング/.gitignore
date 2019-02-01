@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.rds
+*.csv
+*.Rmd
+_site.yml
+docs/
