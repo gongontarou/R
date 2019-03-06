@@ -349,9 +349,10 @@ for (p in 1:length(param)){
 listxylim <- list(c(0,1.05), c(0,7))
 
 # 描画ウィンドウの生成
-x11(width = 7*nParam, height = 8)
+#x11(width = 7*nParam, height = 8)
 
 # 描画パラメータ
+par(family = "HiraKakuProN-W3")
 par(mfcol = c(1,nParam))
 par(oma = c(1.7,2,2,1))
 par(mar = c(4, 4, 4.0, 2))

@@ -45,7 +45,7 @@ post <- function(mu, data, a, b) {
 
 # 結果の描画 -------------------------------------------------------------------
 
-x11()
+#x11()
 
 # ggplot2のテーマ設定
 ggplot() + theme_set(theme_bw(base_size = 18)) 

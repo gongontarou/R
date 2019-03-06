@@ -217,7 +217,7 @@ dataList = list(
 )
 
 # MCMC
-stanFit <- stan(file = 'qlearning_single_subject.stan', 
+stanFit <- stan(file = '/Users/nakamuratatsuya/documents/Github/R/行動データモデリング/chapter4/qlearning_single_subject.stan', 
                 data = dataList, 
                 iter = 5000, 
                 thin = 1, 
@@ -229,7 +229,7 @@ stanFit <- stan(file = 'qlearning_single_subject.stan',
 
 # 結果の描画 -------------------------------------------------------------------
 
-x11(width = 14*2, height = 12*2)
+#x11(width = 14*2, height = 12*2)
 
 # 事前分布 (alpha)
 galpha_prior <- ggplot(data.frame(alpha = c(0, 1)), 
